@@ -58,6 +58,7 @@ export class AppComponent {
     const value = parseInt((length.target as HTMLInputElement).value);
     if(length.target){
       this.length = 0;
+      this.password="";
     }
     if(!isNaN(value)){
       this.length = value;
